@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+    position: relative;
+    font-family: Arial;
+    margin-left: 100px;
+    margin-right: 100px;
+    display:flex;
+    flex-direction: column;
+}
+
+.header {
+    text-align: center;
+    background-color: white;
+    min-width: 600px;
+}
+
+.page {
+    background-color: gainsboro;
+    min-width: 600px;
+}
+
+.page div {
+    background-color: white;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+}
+
+.box {
+	justify-content: space-between;
+	width: 600px;
+    height: 500px;
+	display:flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.up{
+    padding: 0px 10px 0px 10px;
+	height: 10%;
+}
+
+.center{
+	height: 75%;
+}
+
+.down{
+    padding: 0px 10px 0px 10px;
+	height: 15%;
+}
+
+h5 {
+    color: grey;
+    position: absolute;
+    top: 1px;
+    right: 5px;
+}
+
+img {
+    width: 600px;
+    height: 380px;
+    object-fit: fill;
+}
+
+#img4{
+    width: 600px;
+    height: 350px;
+    padding: 10px 0;
+}
